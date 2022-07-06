@@ -3,19 +3,16 @@ let handler = async (m, { conn }) => {
   let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
-  let aine = '628895377665@s.whatsapp.net'
+  let arietube = '628895377665@s.whatsapp.net'
   let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let c = pickRandom([a, b])
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
-  description: ` *• Langsung Kunjungi Websitenya Aja •*
-       
-Ws: https://pinomodules.skom.id/cheap-hosting
-Ig: https://instagram.com/pinomodz
+  description: `1 bulan = 20.000\n2 Minggu 10.000\n1 Minggu 5.000
 
-*Owner ${conn.user.name}*
+*© ${conn.user.name}*
 `,
   buttonText: 'Harga Sesuai Pasaran',
   listType: 2,
