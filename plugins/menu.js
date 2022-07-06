@@ -32,6 +32,7 @@ let tags = {
   'info': 'Info',
   'audio': 'Audio',
   'maker': 'Maker',
+  'maker': 'Asupan',
 }
 const defaultMenu = {
   before: `
@@ -52,9 +53,7 @@ Hai, %ucapan %name! 👋
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Made by ♡*
-*%npmname* | %version
-${'```%npmdesc```'}
+  after: `*XyRa BOT MD*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
