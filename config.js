@@ -16,23 +16,23 @@ global.APIs = { // API Prefix
   zahir: 'https://zahirr-web.herokuapp.com',
   bcil: 'https://75.119.137.248:21587',
   neoxr: 'https://api.neoxr.eu.org/',
-  zeks: 'https://api.zeks.me',
   gimez: 'https://masgimenz.my.id/',
   melcanz: 'https://melcanz.com',
   pencarikode: 'https://pencarikode.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  restapi: 'https://x-restapi.herokuapp.com'
+  restapi: 'https://x-restapi.herokuapp.com',
+  alphabot: 'https://api-alphabot.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'apikeyaine',
+  'https://api.xteam.xyz': '524e9d1f64f72f79',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.neoxr.eu.org/': 'jVEMyB2ITJ',
-  'https://api.zeks.me': 'apikeyaine',
+  'https://api.neoxr.eu.org/': '0fWgL9ID',
   'https://pencarikode.xyz': 'pais',
   'https://melcanz.com': 'ZZBk7EBb',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://x-restapi.herokuapp.com': 'BETA'
+  'https://x-restapi.herokuapp.com': 'BETA',
+  'https://api-alphabot.herokuapp.com': 'N7axnIq3'
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
