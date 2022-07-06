@@ -25,10 +25,10 @@ Ilman:
 https://github.com/ilmanhdyt
 Amirul: 
 https://github.com/amiruldev20
-Nathan:
-https://github.com/ZeroChanBot
-Rama:
-https://github.com/ZyxMapLe
+Pino:
+https://github.com/pinomodz
+Aine:
+https://github.com/Aiinne
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
