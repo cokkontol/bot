@@ -32,7 +32,7 @@ let tags = {
   'info': 'Info',
   'audio': 'Audio',
   'maker': 'Maker',
-  'maker': 'Asupan',
+  'asupan': 'Asupan',
 }
 const defaultMenu = {
   before: `
