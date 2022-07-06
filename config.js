@@ -4,7 +4,7 @@ let chalk = require('chalk')
 global.owner = [
   ['628895377665'],
   ['628895377665'],
-  ['628895377665', 'Bot', true]
+  ['628895377665', 'Pino', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -58,7 +58,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '© PINO BOT WHATSAPP 2022'
+global.wm = '© XyRa BOT MD'
 
 global.multiplier = 1000 // The higher, The harder levelup
 global.instagram = 'https://instagram.com/pinomodz'
