@@ -19,23 +19,17 @@ Nurutomo:
 https://github.com/Nurutomo
 Istikmal: 
 https://github.com/BochilGaming
-Ariffb: 
-https://github.com/Ariffb25
-Ilman: 
-https://github.com/ilmanhdyt
-Amirul: 
-https://github.com/amiruldev20
-Pino:
-https://github.com/pinomodz
 Aine:
 https://github.com/Aiinne
+Pino:
+https://github.com/pinomodz
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
            hydratedContentText: tqto,
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./media/tqto.jpg') }, 
+           jpegThumbnail: fs.readFileSync('./mp3/tqto.jpg') }, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
