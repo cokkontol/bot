@@ -7,5 +7,5 @@ handler.tags = ['asupan']
 handler.command = /^(asupansantuy)$/i
 handler.premium = true
 handler.register = true
-handler.limit = 5
+handler.limit = true
 module.exports = handler
