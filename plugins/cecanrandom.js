@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['cecanrandom']
 handler.tags = ['asupan']
-handler.limit = 5
+handler.limit = true
 handler.command = /^(cecanrandom)$/i
 
 module.exports = handler
