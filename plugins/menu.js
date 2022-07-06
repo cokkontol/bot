@@ -5,55 +5,55 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let tags = {
-  'rpgabsen': 'Rpg-Absen',
-  'rpg': 'Rpg',
-  'game': 'Game',
-  'xp': 'Exp, Limit & Pay',
-  'sticker': 'Sticker',
-  'main': 'Main',
-  'kerang': 'Kerang Ajaib',
-  'quotes': 'Quotes',
-  'admin': 'Admin',
-  'group': 'Group',
-  'internet': 'Internet',
-  'anonymous': 'Anonymous Chat',
-  'downloader': 'Downloader',
-  'berita': 'Berita',
-  'tools': 'Tools',
-  'fun': 'Fun',
-  'database': 'Database', 
-  'vote': 'Voting',
-  'absen': 'Absen',
-  'catatan': 'Catatan',
-  'jadian': 'Jadian',
-  'islami': 'Islami',
-  'owner': 'Owner',
-  'advanced': 'Advanced',
-  'info': 'Info',
-  'audio': 'Audio',
-  'maker': 'Maker',
-  'asupan': 'Asupan',
+  'rpgabsen': '𝗥𝗣𝗚-𝗔𝗕𝗦𝗘𝗡',
+  'rpg': '𝗥𝗣𝗚',
+  'game': '𝗚𝗔𝗠𝗘',
+  'xp': '𝗘𝗫𝗣-𝗟𝗜𝗠𝗜𝗧',
+  'sticker': '𝗦𝗧𝗜𝗖𝗞𝗘𝗥',
+  'main': '𝗠𝗔𝗜𝗡',
+  'kerang': '𝗞𝗘𝗥𝗔𝗡𝗚 𝗠𝗘𝗡𝗨',
+  'quotes': '𝗤𝗨𝗢𝗧𝗘𝗦',
+  'admin': '𝗔𝗗𝗠𝗜𝗡',
+  'group': '𝗚𝗥𝗨𝗣-𝗠𝗘𝗡𝗨',
+  'internet': '𝗜𝗡𝗧𝗘𝗥𝗡𝗘𝗧',
+  'anonymous': '𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦',
+  'downloader': '𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥',
+  'berita': '𝗕𝗘𝗥𝗜𝗧𝗔',
+  'tools': '𝗧𝗢𝗢𝗟𝗦',
+  'fun': '𝗙𝗨𝗡-𝗠𝗘𝗡𝗨',
+  'database': '𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘', 
+  'vote': '𝗩𝗢𝗧𝗜𝗡𝗚-𝗠𝗘𝗡𝗨',
+  'absen': '𝗔𝗕𝗦𝗘𝗡',
+  'catatan': '𝗖𝗔𝗧𝗔𝗧𝗔𝗡',
+  'jadian': '𝗝𝗔𝗗𝗜𝗔𝗡',
+  'islami': '𝗜𝗦𝗟𝗔𝗠𝗜',
+  'owner': '𝗢𝗪𝗡𝗘𝗥-𝗠𝗘𝗡𝗨',
+  'advanced': '𝗞𝗛𝗨𝗦𝗨𝗦',
+  'info': '𝗜𝗡𝗙𝗢',
+  'audio': '𝗔𝗨𝗗𝗜𝗢',
+  'maker': '𝗠𝗔𝗞𝗘𝗥',
+  'asupan': '𝗔𝗦𝗨𝗣𝗔𝗡',
 }
 const defaultMenu = {
   before: `
-Hai, %ucapan %name! 👋
-  
-*Waktu:* 
-%wib WIB
-%wita WITA
-%wit WIT
-*Hari:* %week
-*Tanggal:* %date
-*Uptime:* %uptime (%muptime)
-
-*Limit:* %limit
-*Level:* %level
-*XP:* %exp
+╔════════════════╗
+╠➤👤𝘽𝙊𝙏 : ${global.namabot}
+╠➤💻𝙊𝙬𝙣𝙚𝙧 : PINO
+╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
+╠➤🗓️𝙏𝙖𝙣𝙜𝙜𝙖𝙡: %date
+╚═══════╦════════╝
+╔═══════╩════════╗
+║ 〘𝙿𝚁𝙾𝙵𝙸𝙻𝙴〙
+╠❥📈𝙻𝚒𝚖𝚒𝚝 : %limit
+╠❥🥀𝙻𝚎𝚟𝚎𝚕 : %level
+╠❥🤺𝙴𝚡𝚙   : %exp
+╠════════════════╝
 %readmore`.trimStart(),
-  header: ' *%category*',
-  body: ' • %cmd %islimit %isPremium',
-  footer: '\n',
-  after: `*XyRa BOT MD*
+  header: '╠♨ %category ♨',
+  body: '╠✠ %cmd %islimit %isPremium',
+  footer: '╠════════════════╝\n╠════════════════╗',
+  after: `${global.namabot}
+*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.ownername}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
