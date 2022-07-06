@@ -124,7 +124,7 @@ let bucin = [
 let dia = bucin[Math.floor(Math.random() * bucin.length)]
   conn.reply(m.chat,`“${dia}”`, m)
 }
-handler.help = ['bucin', 'gombal']
+handler.help = ['bucin']
 handler.tags = ['quotes']
 handler.command = /^(bucin)$/i
 handler.owner = false
