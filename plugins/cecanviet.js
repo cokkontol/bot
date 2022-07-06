@@ -5,6 +5,6 @@ let handler = async (m, { conn }) => {
 handler.help = ['cecanvietnam']
 handler.tags = ['asupan']
 handler.command = /^(cecanvietnam)$/i
-handler.limit = 3
+handler.limit = true
 
 module.exports = handler
