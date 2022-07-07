@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-  let url = await fetch('https://docs-pinomd.herokuapp.com/api/ceritahantu')
+  let url = await fetch('https://x-restapi.herokuapp.com/api/random-cehor?apikey=BETA')
   let cerpen = await url.json()
 let hasil = `
 *Powered By ${global.wm}*
