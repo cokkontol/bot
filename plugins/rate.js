@@ -8,7 +8,7 @@ ${text} ${te}%
 } : {})
 }
 
-handler.help = ['rate']
+handler.help = ['nilai']
 handler.tags = ['fun']
 
 handler.command = /^rate$/i
