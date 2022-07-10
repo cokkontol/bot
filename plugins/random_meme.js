@@ -1,6 +1,6 @@
 let handler = async (m, { conn, command }) => {
 let kntol = `https://zahirr-web.herokuapp.com/api/random/meme?apikey=zahirgans`
-    conn.File(m.chat, kntol, 'Nih', `.${command}`) 
+    conn.sendFile(m.chat, kntol, 'Nih', `.${command}`) 
 }
 handler.help = ['meme']
 handler.tags = ['internet']
