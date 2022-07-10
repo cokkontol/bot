@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-  let url = await fetch('https://x-restapi.herokuapp.com/api/random-cehor?apikey=BETA')
+  let url = await fetch('https://api.lolhuman.xyz/api/ceritahoror?apikey=86ca9a668a002cb297236c64')
   let cerpen = await url.json()
 let hasil = `
 *Powered By ${global.wm}*
