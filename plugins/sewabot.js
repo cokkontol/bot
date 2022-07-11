@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
-  let arietube = '628895377665@s.whatsapp.net'
+  let arietube = '6289528821344@s.whatsapp.net'
   let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let c = pickRandom([a, b])
@@ -19,12 +19,12 @@ let handler = async (m, { conn }) => {
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'3963396743784958'}]}],
-  headerImage: { productId: '3963396743784958',
+  products:[{productId:'5183623155019489'}]}],
+  headerImage: { productId: '5183623155019489',
   jpegThumbnail: baper },
-  businessOwnerJid: `628895377665@s.whatsapp.net`
+  businessOwnerJid: `6289528821344@s.whatsapp.net`
   },
-  footerText: 'https://instagram.com/pinomdstore',
+  footerText: 'XyRa BOT MD',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
