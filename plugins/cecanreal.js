@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-    conn.sendFile(m.chat, ('https://api.zacros.my.id/asupan/cecan'), '✿𝗖𝗥𝗘𝗔𝗧𝗢𝗥➢PINO\nSubscribe : https://instagram.com/pinomodz', wm, 'NEXT', '.cevanvietnam', m)
+    conn.sendFile(m.chat, ('https://api.zacros.my.id/asupan/cecan'), '✿𝗖𝗥𝗘𝗔𝗧𝗢𝗥➢PINO\nSubscribe : https://instagram.com/pinomodz', m)
 }
 
 handler.help = ['cecansantuy']
