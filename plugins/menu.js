@@ -52,7 +52,7 @@ const defaultMenu = {
   header: '╠♨ %category ♨',
   body: '╠✠ %cmd %islimit %isPremium',
   footer: '╠════════════════╝\n╠════════════════╗',
-  after: `JANGAN SPAM BOT, JEDA 5/3 DETIK.
+  after: `
 *𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 PINO MD*
 `,
 }
