@@ -2,6 +2,12 @@ let handler = async m => m.reply(`
 ╭─「 MOD APK 」
 │• Minecraft (Original)
 │https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/file
+│• Whatsapp (hijau)
+│https://www.mediafire.com/download/lmxwwbd03e9f81g
+│• Whatsapp (Ungu)
+│https://www.mediafire.com/download/439sjzc3m5h6i7l
+│• Whatsapp (Pink)
+│https://www.mediafire.com/download/r0w7in7tbooq6aq
 │• Geometry Dash (MOD)
 │http://www.mediafire.com/file/thnoi1wpa5ex2wn/Geometry_Dash_%2528MOD%2529.apk/file
 │• KineMaster (PRO)
