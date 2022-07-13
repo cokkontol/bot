@@ -1,10 +1,10 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-  let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
+  let pepe = 'https://telegra.ph/file/e016afb35c3c25ede7b3a.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
   let arietube = '6288980336241@s.whatsapp.net'
-  let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+  let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/e016afb35c3c25ede7b3a.jpg")
   let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
   let c = pickRandom([a, b])
   let d = await fetch(c).then(a => a.buffer())
