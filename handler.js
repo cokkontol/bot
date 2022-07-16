@@ -27,6 +27,9 @@ module.exports = {
                 let user = global.db.data.users[m.sender]
                 if (typeof user !== 'object') global.db.data.users[m.sender] = {}
                 if (user) {
+                	if (!isNumber(user.ojekk)) user.ojekk = 0
+                   if (!isNumber(user.antispam)) user.antispam = 0
+                 if (!isNumber(user.antispamlastclaim)) user.antispamlastclaim = 0
                     if (!isNumber(user.exp)) user.exp = 0
                     if (!isNumber(user.limit)) user.limit = 1000
                     if (!isNumber(user.joinlimit)) user.joinlimit = 1
@@ -66,7 +69,20 @@ module.exports = {
                     if (!isNumber(user.rock)) user.rock = 0
                     if (!isNumber(user.string)) user.string = 0
                     if (!isNumber(user.petFood)) user.petFood = 0
-
+                    
+                    if (!isNumber(user.banteng)) user.banteng = 0
+                    if (!isNumber(user.harimau)) user.harimau = 0
+                    if (!isNumber(user.gajah)) user.gajah = 0
+                    if (!isNumber(user.kambing)) user.kambing = 0
+                    if (!isNumber(user.panda)) user.panda = 0
+                    if (!isNumber(user.buaya)) user.buaya = 0
+                   if (!isNumber(user.kerbau)) user.kerbau = 0
+                   if (!isNumber(user.sapi)) user.sapi = 0
+                   if (!isNumber(user.monyet)) user.monyet = 0
+                   if (!isNumber(user.babihutan)) user.babihutan = 0
+                  if (!isNumber(user.babi)) user.babi = 0
+                  if (!isNumber(user.ayam)) user.ayam = 0
+     
                     if (!isNumber(user.emerald)) user.emerald = 0
                     if (!isNumber(user.diamond)) user.diamond = 0
                     if (!isNumber(user.berlian)) user.berlian = 0
@@ -924,7 +940,7 @@ global.dfail = (type, m, conn) => {
         rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
         owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
         mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*Premium*\n1 Months *IDR 10000*\n1 Years *IDR 90000*\n\nHubungi *owner* kami..', 
+        premium: 'Printah ini hanya bisa di gunakan oleh member _*Premium!*_', 
         banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
         group: 'Perintah ini hanya dapat digunakan di grup!',
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
