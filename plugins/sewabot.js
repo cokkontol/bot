@@ -10,8 +10,18 @@ let handler = async (m, { conn }) => {
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
-  description: `Liat list di atas
-
+  description: `Hai ${conn.getName(m.sender)} Mau Sewa?
+*SEWA BOT*
+┏━━〔 ıll LIST HARGA llı 〕━
+┃⌬ 20K PERMANEN (GOPAY)
+┗━━━━━━━━━━━━━㉿
+┏━━〔 ıll KELEBIHAN llı 〕━
+◎ BOT ON 24 JAM NONSTOP
+◎ FITUR BANYAK
+◎ FAST RESPON
+◎ DAN LAIN LAIN
+◎ MINAT? HUBUNGI OWNER
+┗━━━━━━━━━━━━━
 *© ${conn.user.name}*
 `,
   buttonText: 'Harga Sesuai Pasaran',
