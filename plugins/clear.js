@@ -27,4 +27,4 @@ handler.command = /^(cleartmp)$/i
 
 handler.owner = true
 
-export default handler
+module.exports = handler
