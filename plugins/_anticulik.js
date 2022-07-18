@@ -5,7 +5,7 @@ handler.all = async function (m, { isBlocked }) {
     if (isBlocked) return
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('Undangan untuk bergabung') || m.text.startsWith('Invitation to join') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
-    let teks = `Cieee Mau Masukin Bot Ya? Baca dulu rules nys\n*PENCET* https://wa.me/p/5371262426287806/6288980336241`
+    let teks = `Cieee Mau Masukin Bot Ya? Hubungi owner nya dlu.`
     this.reply(m.chat, teks, m)
     const data = global.owner.filter(([id, isCreator]) => id && isCreator)
     this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
