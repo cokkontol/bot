@@ -22,7 +22,7 @@ https://github.com/BochilGaming
 Aine:
 https://github.com/Aiinne
 Pino:
-https://github.com/pinomodz
+https://github.com/PinoRecode
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
