@@ -1,8 +1,8 @@
 let handler = async m => m.reply(`
-*------- DONATE  -------*
-Hai kak  
+*-------💸 DONATE 💸 -------*
+Hai kak 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-Berapapun donasi kalian akan sangat berarti 
+Berapapun donasi kalian akan sangat berarti 😁
 Thanks!
 
 GcBOT: https://tinyurl.com/2cdj7axy
