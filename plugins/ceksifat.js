@@ -21,7 +21,7 @@ handler.help = ['ceksifat <nama>']
 handler.tags = ['fun']
 handler.command = /^ceksifat/i
 
-export default handler 
+default.export handler 
 
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
