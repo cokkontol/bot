@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
   description: `Hai ${conn.getName(m.sender)} Mau Sewa?
 *SEWA BOT*
 ┏━━〔 ıll LIST HARGA llı 〕━
-┃⌬ 20K PERMANEN (GOPAY)
+┃⌬ CEK KATALOG OWNER
 ┗━━━━━━━━━━━━━㉿
 ┏━━〔 ıll KELEBIHAN llı 〕━
 ◎ BOT ON 24 JAM NONSTOP
