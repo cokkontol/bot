@@ -37,6 +37,7 @@ global.APIs = { // API Prefix
   neoxr: 'https://neoxr-api.herokuapp.com',
   ana: 'https://anabotofc.herokuapp.com/',
   kanx: 'https://kannxapi.herokuapp.com/',
+  males: 'https://malest.herokuapp.com',
   dhnjing: 'https://dhnjing.xyz'
 },
 global.APIKeys = { // APIKey Here
