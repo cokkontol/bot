@@ -11,30 +11,53 @@ global.mods = ['628895377665'] // Want some help?
 global.prems = ['628895377665'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
+  amel: 'https://melcanz.com',
+  bx: 'https://bx-hunter.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
+  nzcha: 'http://nzcha-apii.herokuapp.com',
+  bg: 'http://bochil.ddns.net',
+  fdci: 'https://api.fdci.se',
+  dzx: 'https://api.dhamzxploit.my.id',
+  bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
-  bcil: 'https://75.119.137.248:21587',
-  neoxr: 'https://api.neoxr.eu.org/',
-  gimez: 'https://masgimenz.my.id/',
-  melcanz: 'https://melcanz.com',
-  pencarikode: 'https://pencarikode.xyz',
+  zeks: 'https://api.zeks.me',
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  pencarikode: 'https://pencarikode.xyz', 
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  restapi: 'https://x-restapi.herokuapp.com',
-  alphabot: 'https://api-alphabot.herokuapp.com'
-}
+  adiisus: 'https://adiixyzapi.herokuapp.com',
+  lol: 'https://api.lolhuman.xyz',
+  pencarikode: 'https://pencarikode.xyz',
+  Velgrynd: 'https://velgrynd.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
+  hardianto: 'http://hardianto-chan.herokuapp.com',
+  shadow: 'https://api.reysekha.xyz',
+  apialc: 'https://api-alc.herokuapp.com',
+  botstyle: 'https://botstyle-api.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
+  ana: 'https://anabotofc.herokuapp.com/',
+  kanx: 'https://kannxapi.herokuapp.com/',
+  dhnjing: 'https://dhnjing.xyz'
+},
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'apikeyaine',
+  'https://api-alc.herokuapp.com': 'ConfuMods',
+  'https://api.reysekha.xyz': 'apirey',
+  'https://melcanz.com': 'F3bOrWzY',
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
+  'https://api.xteam.xyz': '5bd33b276d41d6b4',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.neoxr.eu.org/': '0fWgL9ID',
-  'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'ZZBk7EBb',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://x-restapi.herokuapp.com': 'BETA',
-  'https://api-alphabot.herokuapp.com': 'N7axnIq3'
+  'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+  'https://api.zeks.me': 'apivinz',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://pencarikode.xyz': 'pais', 
+  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://api.lolhuman.xyz': '9b817532fadff8fc7cb86862',
+  'https://botstyle-api.herokuapp.com': 'Eyar749L',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
-
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
 const spack = fs.readFileSync("lib/exif.json")
