@@ -40,6 +40,7 @@ const pino = [
 "Jangan pernah mengeluh ketika kopimu dingin, ia pernah hangat, namun kau diamkan",
 "ngapain tidur kalo besok bangun lagi",
 "dia ngetik pake jari, lu bales pake hati",
+"Apa",
 "Dia tak buta warna, kau yang bukan pelanginya",
 "Dia nggk sibuk, lu yang bukan prioritas nya",
 "Jangan pernah jadi pelangi, untuk seseorang yang buta warna"
