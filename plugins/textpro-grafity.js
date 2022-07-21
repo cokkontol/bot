@@ -1,4 +1,4 @@
-var tp = require("../lib/textpro.cjs")
+var tp = require("../lib/textpro.js")
 let handler = async (m, {
 	conn,
 	args, 
@@ -33,7 +33,7 @@ t2 = 'jawa'
 	}
 }
 handler.help = ['grafity [text]']
-handler.tags = ['textpro']
+handler.tags = ['maker']
 handler.command = /^grafity$/i
 
 

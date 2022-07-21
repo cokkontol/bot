@@ -1,4 +1,4 @@
-const uploadFile = require('../lib/uploadFile.cjs');
+const uploadFile = require('../lib/uploadFile.js');
 
 async function handler(m, {
 	conn,
@@ -34,6 +34,6 @@ async function handler(m, {
 	}
 }
 handler.help = ['trash']
-handler.tags = ['canvas']
+handler.tags = ['maker']
 handler.command = /^trash$/i
 module.exports = handler

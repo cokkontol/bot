@@ -1,4 +1,4 @@
-var tp = require("../lib/textpro.cjs")
+var tp = require("../lib/textpro.js")
 let handler = async (m, {
 	conn,
 	args
@@ -29,7 +29,7 @@ let handler = async (m, {
 	}
 }
 handler.help = ['jewerly [text]']
-handler.tags = ['textpro']
+handler.tags = ['maker']
 handler.command = /^jewerly$/i
 
 

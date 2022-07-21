@@ -1,7 +1,7 @@
-const uploadFile = require('../lib/uploadFile.cjs');
+const uploadFile = require('../lib/uploadFile.js');
 const {
 	webp2png
-} = require('../lib/webp2mp4.cjs');
+} = require('../lib/webp2mp4.js');
 async function handler(m, {
 	conn,
 	text,
@@ -46,6 +46,6 @@ async function handler(m, {
 	}
 }
 handler.help = ['insta']
-handler.tags = ['canvas']
+handler.tags = ['maker']
 handler.command = /^insta$/i
 module.exports = handler
