@@ -38,7 +38,9 @@ global.APIs = { // API Prefix
   ana: 'https://anabotofc.herokuapp.com/',
   kanx: 'https://kannxapi.herokuapp.com/',
   males: 'https://malest.herokuapp.com',
-  dhnjing: 'https://dhnjing.xyz'
+  dhnjing: 'https://dhnjing.xyz',
+  ghst: 'https://ghostui-api.herokuapp.com/',
+  beni: 'https://rest-beni.herokuapp.com/'
 },
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
@@ -57,7 +59,8 @@ global.APIKeys = { // APIKey Here
   'https://api.lolhuman.xyz': '9b817532fadff8fc7cb86862',
   'https://botstyle-api.herokuapp.com': 'Eyar749L',
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://anabotofc.herokuapp.com/': 'AnaBot'
+  'https://anabotofc.herokuapp.com/': 'AnaBot',
+  'https://ghostui-api.herokuapp.com/': 'OC2eTK'
 }
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
