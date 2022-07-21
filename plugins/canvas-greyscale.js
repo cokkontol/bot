@@ -35,6 +35,6 @@ async function handler(m, {
 	}
 }
 handler.help = ['greyscale']
-handler.tags = ['canvas']
+handler.tags = ['maker']
 handler.command = /^greyscale$/i
 module.exports = handler
