@@ -16,7 +16,7 @@ conn.sendMessage(m.chat, buf, MessageType.image, { quoted: m, caption: 'nihhhh!!
 .catch(error => console.log(error));
 }
 handler.help = ['grafity3 <text>']
-handler.tags = ['textpro']
+handler.tags = ['maker']
 handler.command = /^grafity3$/i
 handler.owner = false
 handler.mods = false
