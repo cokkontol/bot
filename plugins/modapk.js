@@ -2,6 +2,8 @@ let handler = async m => m.reply(`
 ╭─「 MOD APK 」
 │• Minecraft (Original)
 │https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/file
+│• Whatsapp (Hidetag)
+│https://www.mediafire.com/download/lomvl027wo0vvqe
 │• Whatsapp (hijau)
 │https://www.mediafire.com/download/lmxwwbd03e9f81g
 │• Whatsapp (Ungu)
