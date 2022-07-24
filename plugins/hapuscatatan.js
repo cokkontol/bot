@@ -37,5 +37,6 @@ conn.reply(m.chat, `Berhasil menghapus catatan!`, m, false, {
 handler.help = ['hapuscatatan title']
 handler.tags = ['catatan']
 handler.command = /^hapuscatatan$/i
+handler.premium = true
 
 module.exports = handler
