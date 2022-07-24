@@ -22,5 +22,6 @@ let handler = async(m, {conn, command, usedPrefix, text}) => {
 handler.help = ['buatcatatan <title|isi>']
 handler.tags = ['catatan']
 handler.command = /^buatcatatan$/i
+handler.premium = true
 
 module.exports = handler
