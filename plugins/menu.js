@@ -40,7 +40,7 @@ const defaultMenu = {
 ╠➤👤𝘽𝙊𝙏 : Xyra BOT
 ╠➤💻𝙊𝙬𝙣𝙚𝙧 : PINO
 ╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
-╠➤🗓️𝙃𝙖𝙧𝙞/𝙏𝙖𝙣𝙜𝙜𝙖𝙡: %week %date
+╠➤🗓️𝙃𝙖𝙧𝙞/𝙏𝙜𝙡: %week %date
 ╚═══════╦═══════╝
 ╔═══════╩═══════╗
 ║ 〘𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙼𝚄〙
@@ -156,7 +156,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://chat.whatsapp.com/CmlrDN2xl0lCl4eBHLe6IJ', 'Support BOT', '', '', [
+    conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://chat.whatsapp.com/CmlrDN2xl0lCl4eBHLe6IJ', '𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐁𝐎𝐓', '', '', [
       ['Donate', '/donasi'],
       ['Sewa Bot', '/sewa'],
       ['Owner', '/owner']
