@@ -41,6 +41,7 @@ const pino = [
 "ngapain tidur kalo besok bangun lagi",
 "dia ngetik pake jari, lu bales pake hati",
 "Apa",
+"Bila dukun biasa membunuh tanpa menyentuh makaku pastikan, kamu akan kubuat rindu tanpa bertemu",
 "Dia tak buta warna, kau yang bukan pelanginya",
 "Dia nggk sibuk, lu yang bukan prioritas nya",
 "Jangan pernah jadi pelangi, untuk seseorang yang buta warna"
